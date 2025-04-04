@@ -18,3 +18,18 @@ toys = [
 # create a function to print out all colours of toys. print(print_colours()) => ['red', 'green']
 
 # Now do this with classes
+
+def all_toys(toys):
+    for toy in toys:
+        print(toy['name'])
+        
+def all_toy_colours(toys):
+    for toy in toys:
+        print(toy['colour'])
+
+all_toys(toys)
+all_toy_colours(toys)
+
+more_toys = []
+
+more_toys.append()
